@@ -14,8 +14,9 @@ def configure_page() -> None:
 def configure_overview() -> None:
     st.markdown("## Simple App - Insurance Claims by Region and Age")
     st.markdown(
-        "This simple app takes two inputs and uses a static csv file to generate \
-        an output, which gets displayed."
+        "This [simple app](https://github.com/katsowka/simple-streamlit-input-output)\
+        takes two inputs and uses a static csv file to generate an output, \
+        which gets displayed."
     )
 
     st.markdown(
